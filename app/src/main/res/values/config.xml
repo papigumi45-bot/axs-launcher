@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      APPS DEL DOCK (la fila grande de abajo), en este orden.
+      Pon aqui el nombre de paquete de cada app. Solo aparecen las que
+      esten instaladas en el box; las demas se ignoran.
+      Si ninguna coincide, el dock usa las primeras 6 apps en orden alfabetico.
+      Las apps que no esten aqui van en la segunda fila.
+    -->
+    <string-array name="dock_apps">
+        <item>com.netflix.ninja</item>
+        <item>com.google.android.youtube.tv</item>
+        <item>com.amazon.amazonvideo.livingroom</item>
+        <item>com.disney.disneyplus</item>
+        <item>com.wbd.stream</item>
+        <item>com.spotify.tv.android</item>
+        <item>com.plexapp.android</item>
+        <item>org.xbmc.kodi</item>
+    </string-array>
+</resources>
